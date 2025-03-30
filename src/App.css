@@ -1,0 +1,80 @@
+label{
+  margin-bottom: 5px;
+}
+
+input{
+  background-color: #eeeff7;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: #969696;
+  padding: 10px;
+}
+
+.inputComponent{
+  display: flex;
+  flex-direction: column;
+}
+
+img{
+  width: 150px;
+  height: 150px;
+}
+
+.upload_bt{
+  width: 150px;
+  height: 30px;
+  background-color: #ffffff;
+  border-color: #001eff;
+  color: #001eff;
+  font-weight: bold;
+}
+
+.remove_bt{
+  height: 30px;
+  border-style: none;
+  background-color: #fff;
+}
+
+.back_bt{
+  background-color: #fff;
+  border-style: none;
+  color: #001eff;
+  font-weight: bold;
+}
+
+.continue_bt{
+  height: 30px;
+  width: 80px;
+  background-color: #001eff;
+  border-style: none;
+  color: #fff;
+}
+
+.profileWrap{
+  display: flex;
+  border-bottom: #343f92;
+}
+
+.profile_btWrap{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.inputRow{
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.inputColumn{
+  display: flex;
+  flex-direction: column;
+}
+
+.detail_btWrap{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
