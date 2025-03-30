@@ -35,8 +35,8 @@ function App() {
     <div className='detailWrap'>
 
       <div className='inputRow'>
-        <Input className='upload'/>
-        <Input className='remove'/>
+        <Input/>
+        <Input/>
       </div>
 
       <div className='inputColumn'>

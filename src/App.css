@@ -3,7 +3,7 @@ label{
 }
 
 input{
-  background-color: #eeeff7;
+  background-color: #edeffd;
   border-top: none;
   border-left: none;
   border-right: none;
@@ -23,9 +23,9 @@ img{
 
 .upload_bt{
   width: 150px;
-  height: 30px;
+  height: 40px;
   background-color: #ffffff;
-  border-color: #001eff;
+  border: 2px solid #001eff;
   color: #001eff;
   font-weight: bold;
 }
@@ -64,9 +64,13 @@ img{
 
 .inputRow{
   display: flex;
-  flex-direction: row;
-  
+  gap: 15px;
 }
+
+.inputRow .inputComponent{
+  flex: 1;
+}
+
 
 .inputColumn{
   display: flex;
@@ -76,5 +80,5 @@ img{
 .detail_btWrap{
   display: flex;
   justify-content: space-between;
-  padding: 15px;
+  padding: 10px;
 }

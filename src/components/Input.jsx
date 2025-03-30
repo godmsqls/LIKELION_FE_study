@@ -1,3 +1,4 @@
+
 const Input = ()=>{
     return (
     <>
@@ -8,7 +9,7 @@ const Input = ()=>{
     </>
     )
     }
-export default Input
+export default Input;
 
 /*
         <div>Label name</div>
